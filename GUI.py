@@ -14,6 +14,7 @@ temp_list = tk.Listbox(listvariable=temps, selectmode="browse")
 def my_function(listbox):
     print(listbox.get(listbox.curselection()))
 
+# this is a test change for git
 
 position_list.bind('<<ListboxSelect>>', lambda event, a=position_list: my_function(a))
 
